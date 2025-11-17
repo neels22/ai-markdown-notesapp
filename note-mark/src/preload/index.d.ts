@@ -1,9 +1,7 @@
-
-
 declare global {
   interface Window {
-    context:{
-
+    electron: {
+      ping: () => string
     }
   }
 }
